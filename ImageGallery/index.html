@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Alpha Image Gallery</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+    <h1>Image Gallery</h1>
+
+    <div class="filter-buttons">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="nature">Nature</button>
+        <button class="filter-btn" data-filter="architecture">Architecture</button>
+        <button class="filter-btn" data-filter="food">Food</button>
+    </div>
+
+    <div class="gallery-container">
+        <div class="gallery-item" data-category="nature">
+            <img src="image/Nature1CodeAlpha.jpg" alt="Forest and Mountains">
+            <div class="item-overlay">
+                <h3>Green Woods</h3>
+            </div>
+        </div>
+        <div class="gallery-item" data-category="architecture">
+            <img src="image/ArchitectureCodeAlpha.jpg" alt="Modern Building">
+            <div class="item-overlay">
+                <h3>Architecture</h3>
+            </div>
+        </div>
+        <div class="gallery-item" data-category="food">
+            <img src="image/Food1CodeAlpha.jpg" alt="Delicious Coffee">
+            <div class="item-overlay">
+                <h3>Delicious Pani-Puri</h3>
+            </div>
+        </div>
+        <div class="gallery-item" data-category="nature">
+            <img src="image/Nature2CodeAlpha.jpg" alt="Forest Path">
+            <div class="item-overlay">
+                <h3>Nature View</h3>
+            </div>
+        </div>
+        <div class="gallery-item" data-category="architecture">
+            <img src="image/Architecture2CodeAlpha.jpg.jpg" alt="Old Architecture">
+            <div class="item-overlay">
+                <h3>Classic Structure</h3>
+            </div>
+        </div>
+        <div class="gallery-item" data-category="food">
+            <img src="image/Food2CodeAlpha.jpg" alt="Fresh Fruits">
+            <div class="item-overlay">
+                <h3>Healthy Cake</h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="lightbox" id="lightbox">
+        <span class="close-btn" id="closeBtn">&times;</span>
+        <button class="nav-btn prev-btn" id="prevBtn">&#10094;</button>
+        <img class="lightbox-content" id="lightboxImg" src="" alt="Popup View">
+        <button class="nav-btn next-btn" id="nextBtn">&#10095;</button>
+    </div>
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
