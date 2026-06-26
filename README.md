@@ -1,5 +1,4 @@
 # CodeAlpha_ImageGallery
-# Code Alpha Image Gallery
 
 A sleek, responsive, and interactive Image Gallery web application built using HTML5, CSS3, and JavaScript. This project was developed as part of the CodeAlpha internship task.
 
